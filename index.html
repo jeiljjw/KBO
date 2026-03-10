@@ -4,10 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KBO Stats Dashboard</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .ad-container-left {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9999;
+      }
+      .ad-container-right {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9999;
+      }
+    </style>
   </head>
   <body>
+    <div class="ad-container-left">
+      <ins class="kakao_ad_area" style="display:none;"
+      data-ad-unit = "DAN-4MuWdTzRj37MMRlv"
+      data-ad-width = "160"
+      data-ad-height = "600"></ins>
+      <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </div>
+    <div class="ad-container-right">
+      <ins class="kakao_ad_area" style="display:none;"
+      data-ad-unit = "DAN-M7AQAobu0GKiqCMb"
+      data-ad-width = "160"
+      data-ad-height = "600"></ins>
+      <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
