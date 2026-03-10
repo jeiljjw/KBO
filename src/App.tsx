@@ -31,7 +31,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex h-screen bg-black overflow-hidden font-sans px-[150px]">
+    <div className="flex h-screen bg-black overflow-hidden font-sans px-[170px]">
       <div className="flex flex-1 bg-slate-100 overflow-hidden w-full">
         <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
         <div className="flex-1 flex flex-col overflow-hidden">
