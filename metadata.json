@@ -1,0 +1,5 @@
+{
+  "name": "KBO Stats Dashboard",
+  "description": "역대 KBO 한국프로야구 팀별, 타자별, 투수별 기록 및 성적을 보여주는 대시보드입니다.",
+  "requestFramePermissions": []
+}
